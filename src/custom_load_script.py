@@ -65,7 +65,8 @@ ADDED: PYDRAKE CONVERSION!!
 """
 from datetime import datetime
 
-original_model_path = "../xml120_rel/env001.xml"
+# TODO: UPDATE THE MODEL PATH
+original_model_path = "../xml120_rel/env000.xml"
 xml_filename = original_model_path.split("/")[-1][:-4] + ".drake.xml"
 
 doc = le.fromstring(convert_relative_to_absolute(original_model_path).encode("utf-8"))

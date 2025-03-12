@@ -1,5 +1,18 @@
 # Robocasa Kitchen XMLs and Assets
 
+## Dependencies
+
+- Manipulation
+- Drake
+- trimesh
+- lxml
+
+## Install Assets
+
+```
+python3 download_assets.py
+```
+
 ## To Run Custom Script
 
 ```
